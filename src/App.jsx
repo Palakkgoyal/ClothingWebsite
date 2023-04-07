@@ -1,11 +1,19 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import { Hero, Navbar } from './components'
 import styles from './style'
+import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className={`${styles.paddingX}`}>
-      <Navbar />
+
+    // <Routes>
+    //   <Route path="/" element={<Navbar />}/>
+    // </Routes>
+    <div>
+      <div className={`${styles.paddingX}`} >
+        <Navbar />
+      </div>
+      <Hero />
     </div>
   )
 }
