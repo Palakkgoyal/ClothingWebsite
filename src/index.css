@@ -18,3 +18,51 @@ body {
 .btn:active{
     background-image: linear-gradient(315deg, #c9a2a7 0%, #c87472 74%);
 }
+
+.media-scroller{
+    margin-top: 50px;
+    --spacer: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30%;
+    grid-template-rows: min-content;
+    gap: var(--spacer);
+    /* padding: 0 var(--spacer) var(--spacer); */
+    /* add a scroll behavior  */
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-element{
+    box-shadow: 0px 2px 4px;
+    display: grid;
+    padding: var(--spacer);
+    background: #e5e3e3;
+    border-radius: 5px;
+}
+
+.media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 9/10;
+    object-fit: cover;
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--spacer, 1rem);
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
+
+@media (max-width: 500px){
+    .media-scroller{
+        grid-auto-columns: 40%;
+    }
+}
+@media (max-width: 350px){
+    .media-scroller{
+        grid-auto-columns: 80%;
+    }
+}

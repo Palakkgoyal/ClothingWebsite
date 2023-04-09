@@ -2,8 +2,6 @@ import React from 'react'
 import heroImg from '../assets/heroImg.png'
 import heroImgWithoutBg from '../assets/heroImgWithoutBg.png'
 import CTA from './CTA'
-import duppata from '../assets/duppata.png'
-import styles from '../style'
 
 const Hero = () => {
   return (

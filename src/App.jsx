@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Navbar, Divider } from './components'
+import { Hero, Navbar, Divider, Suits } from './components'
 import styles from './style'
 import { Route, Routes } from 'react-router-dom'
 
@@ -22,6 +22,7 @@ const App = () => {
       </div>
 
       <Divider />
+      <Suits />
     </div>
   )
 }
