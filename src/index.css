@@ -19,6 +19,11 @@ body {
     background-image: linear-gradient(315deg, #c9a2a7 0%, #c87472 74%);
 }
 
+.flip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .media-scroller{
     margin-top: 50px;
     --spacer: 1rem;
@@ -58,11 +63,13 @@ body {
 
 @media (max-width: 500px){
     .media-scroller{
-        grid-auto-columns: 40%;
-    }
-}
-@media (max-width: 350px){
-    .media-scroller{
         grid-auto-columns: 80%;
     }
 }
+
+@media (max-width: 700px){
+    .media-scroller{
+        grid-auto-columns: 40%;
+    }
+}
+

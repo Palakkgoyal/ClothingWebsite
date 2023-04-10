@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Navbar, Divider, Suits } from './components'
+import { Hero, Navbar, Suits, Facilities } from './components'
 import styles from './style'
 import { Route, Routes } from 'react-router-dom'
 
@@ -17,12 +17,11 @@ const App = () => {
       </div>
       <div className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Hero/>
+          <Hero />
         </div>
       </div>
-
-      <Divider />
       <Suits />
+      <Facilities />
     </div>
   )
 }
