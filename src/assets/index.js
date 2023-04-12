@@ -21,6 +21,11 @@ import whiteCloth from './SuitImages/whiteCloth.jpg'
 import yellow from './SuitImages/yellow.jpg'
 import yellowSuit from './SuitImages/yellowSuit.jpg'
 import yellowSuitM from './SuitImages/yellowSuitM.jpg'
+import V1 from './Videos/V1.mp4'
+import V2 from './Videos/V2.mp4'
+import V3 from './Videos/V3.mp4'
+import V4 from './Videos/V4.mp4'
+import V5 from './Videos/V5.mp4'
 
 export{
     heroImg,
@@ -45,5 +50,10 @@ export{
     whiteCloth,
     yellow,
     yellowSuit,
-    yellowSuitM
+    yellowSuitM,
+    V1,
+    V2,
+    V3,
+    V4,
+    V5,
 }

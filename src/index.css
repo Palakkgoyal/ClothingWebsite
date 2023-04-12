@@ -67,9 +67,21 @@ body {
     }
 }
 
+.gridTemp{
+    grid-template-columns: 45vw 45vw;
+    object-fit: fill;
+}
+
 @media (max-width: 700px){
     .media-scroller{
         grid-auto-columns: 40%;
+    }
+    .gridTemp{
+        grid-template-columns: 90vw;
+        grid-template-rows: auto auto;
+    }
+    .marginT{
+        margin-top: 35px;
     }
 }
 

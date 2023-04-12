@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Navbar, Suits, Facilities } from './components'
+import { Hero, Navbar, Suits, Facilities, Videos, Follow } from './components'
 import styles from './style'
 import { Route, Routes } from 'react-router-dom'
 
@@ -22,6 +22,8 @@ const App = () => {
       </div>
       <Suits />
       <Facilities />
+      <Videos />
+      <Follow />
     </div>
   )
 }
