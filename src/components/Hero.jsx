@@ -1,7 +1,7 @@
 import React from 'react'
-import heroImg from '../assets/heroImg.png'
-import heroImgWithoutBg from '../assets/heroImgWithoutBg.png'
+import { heroImg, heroImgWithoutBg } from '../assets'
 import CTA from './CTA'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -25,7 +25,9 @@ const Hero = () => {
             style={{ textShadow: '2px 1px black' }}
           ><i>Elevate style with our handpainted suits for any event </i></h1>
           <div className="hidden lg:block">
-          <CTA text="Find Your Perfect Ethnic Look" />
+            <Link to="/about">
+              <CTA text="Find Your Perfect Ethnic Look" />
+            </Link>
           </div>
           <div className='lg:hidden'>
           <CTA text="View Suits" />
