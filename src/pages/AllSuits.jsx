@@ -1,10 +1,11 @@
 import React from 'react'
+import { AllSuitCom } from '../components'
 
 const AllSuits = () => {
   return (
-    <div>
-      All The Suits
-    </div>
+   <div>
+    <AllSuitCom />
+   </div>
   )
 }
 

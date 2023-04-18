@@ -25,7 +25,7 @@ const Hero = () => {
             style={{ textShadow: '2px 1px black' }}
           ><i>Elevate style with our handpainted suits for any event </i></h1>
           <div className="hidden lg:block">
-            <Link to="/about">
+            <Link to="/all-suits">
               <CTA text="Find Your Perfect Ethnic Look" />
             </Link>
           </div>

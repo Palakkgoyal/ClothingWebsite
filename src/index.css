@@ -32,8 +32,6 @@ body {
     grid-auto-columns: 30%;
     grid-template-rows: min-content;
     gap: var(--spacer);
-    /* padding: 0 var(--spacer) var(--spacer); */
-    /* add a scroll behavior  */
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
@@ -70,6 +68,10 @@ body {
 .gridTemp{
     grid-template-columns: 45vw 45vw;
     object-fit: fill;
+}
+
+.gridTemp2{
+    object-fit: cover;
 }
 
 @media (max-width: 700px){

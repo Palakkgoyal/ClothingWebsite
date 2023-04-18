@@ -1,3 +1,4 @@
+import AllSuitCom from "./AllSuitCom"
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Suits from "./Suits"
@@ -7,6 +8,7 @@ import Videos from './Videos'
 import Follow from "./Follow";
 
 export {
+    AllSuitCom,
     Hero,
     Navbar,
     Suits,
