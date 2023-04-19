@@ -1,5 +1,3 @@
-import heroImg from './heroImg.png'
-import heroImgWithoutBg from './heroImgWithoutBg.png'
 import blueSuit from './SuitImages/blueSuit.jpg'
 import brownJutti from './SuitImages/brownJutti.jpg'
 import darkGreen from './SuitImages/darkGreen.jpg'
@@ -26,10 +24,9 @@ import V2 from './Videos/V2.mp4'
 import V3 from './Videos/V3.mp4'
 import V4 from './Videos/V4.mp4'
 import V5 from './Videos/V5.mp4'
+import qrInsta from './qrInsta.jpg'
 
 export{
-    heroImg,
-    heroImgWithoutBg,
     blueSuit,
     brownJutti,
     darkGreen,
@@ -56,4 +53,5 @@ export{
     V3,
     V4,
     V5,
+    qrInsta,
 }

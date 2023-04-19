@@ -19,3 +19,4 @@ const AllSuits = () => {
 }
 
 export default AllSuits
+

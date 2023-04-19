@@ -3,28 +3,32 @@
 @tailwind utilities;
 
 body {
-    background-color: beige;
-    font-family: 'Poppins';
+    /* background-color: beige; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn {
-    background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+    background: linear-gradient(19deg, rgba(185,185,217,1) 38%, rgba(47,115,230,0.0844712885154062) 56%);
+    transition: background-color 0.7s;
+    place-content: center;
 }
 
-.btn:hover{
-    background-image: linear-gradient(315deg, #eec0c6 0%, #d0706e 74%);
+.btn:hover {
+    background-color: #8a86d8;
 }
 
-.btn:active{
+.btn:active {
     background-image: linear-gradient(315deg, #c9a2a7 0%, #c87472 74%);
+    background-image: linear-gradient(19deg, rgba(185,185,299,1) 38%, rgba(100,250,230,0.0844712885154062) 56%);
+    
 }
 
-.flip{
+.flip {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
-.media-scroller{
+.media-scroller {
     margin-top: 50px;
     --spacer: 1rem;
     display: grid;
@@ -36,7 +40,7 @@ body {
     overscroll-behavior-inline: contain;
 }
 
-.media-element{
+.media-element {
     box-shadow: 0px 2px 4px;
     display: grid;
     padding: var(--spacer);
@@ -44,46 +48,59 @@ body {
     border-radius: 5px;
 }
 
-.media-element > img {
+.media-element>img {
     inline-size: 100%;
     aspect-ratio: 9/10;
     object-fit: cover;
 }
 
-.snaps-inline{
+.snaps-inline {
     scroll-snap-type: inline mandatory;
     scroll-padding-inline: var(--spacer, 1rem);
 }
 
-.snaps-inline > * {
+.snaps-inline>* {
     scroll-snap-align: start;
 }
 
-@media (max-width: 500px){
-    .media-scroller{
+@media (max-width: 500px) {
+    .media-scroller {
         grid-auto-columns: 80%;
     }
 }
 
-.gridTemp{
+.gridTemp {
     grid-template-columns: 45vw 45vw;
     object-fit: fill;
 }
 
-.gridTemp2{
+.gridTemp2 {
     object-fit: cover;
 }
 
-@media (max-width: 700px){
-    .media-scroller{
+@media (max-width: 700px) {
+    .media-scroller {
         grid-auto-columns: 40%;
     }
-    .gridTemp{
+
+    .gridTemp {
         grid-template-columns: 90vw;
         grid-template-rows: auto auto;
     }
-    .marginT{
+
+    .marginT {
         margin-top: 35px;
     }
 }
 
+.heroBg {
+    background-image: url('assets/SuitImages/blueSuitBgg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 100px 200px; */
+}
+
+.heroFont {
+    font-family: 'Abril Fatface', cursive;
+}
