@@ -1,9 +1,10 @@
 import React from 'react'
-import { AllSuitCom } from '../components'
+import { AllSuitCom, Sidebar } from '../components'
 
 const AllSuits = () => {
   return (
-   <div>
+   <div className='flex'>
+    <Sidebar />
     <AllSuitCom />
    </div>
   )

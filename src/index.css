@@ -103,3 +103,11 @@ body {
 .heroFont {
     font-family: 'Abril Fatface', cursive;
 }
+
+.ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    white-space: pre-wrap;
+}

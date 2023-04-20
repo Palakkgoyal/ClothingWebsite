@@ -6,6 +6,7 @@ import Divider from "./Divider";
 import Facilities from "./Facilities";
 import Videos from './Videos'
 import Follow from "./Follow";
+import Sidebar from "./Sidebar";
 
 export {
     AllSuitCom,
@@ -16,4 +17,5 @@ export {
     Facilities,
     Videos,
     Follow,
+    Sidebar,
 }

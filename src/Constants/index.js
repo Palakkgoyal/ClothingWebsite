@@ -53,151 +53,162 @@ export const allSuits = [
         key: 1,
         name: "BLUEBELLS",
         img: blueSuit,
-        shortD: "Delicate floral blue beauty draped gracefully.",
-        price: '5$',
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
+        color: "blue",
+        shortD: "Blue Hand Painted Suit",
+        price: '800',
+        description: "Delicate floral blue beauty draped gracefully"
     },
     {
         key: 2,
         name: "GREENY",
         img: brownJutti,
-        shortD: "Floral Punjabi jutti with green elegance",
-        price: '5$',
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
+        color: "green and brown",
+        shortD: "Suit and Jutti Set",
+        price: '800',
+        description: "Floral Punjabi jutti with green elegance"
     },
     {
         key: 3,
         name: "ELEGANCE",
         img: darkGreen,
-        shortD: "Dark green cloth adorned with yellow flowered Fulkari.",
-        price: '5$',
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
+        color: "green",
+        shortD: "Party Wear Suit",
+        price: '800',
+        description: "Dark green cloth adorned with yellow flowered Fulkari"
     },
     {
         key: 4,
         name: "WAVY-ONE",
         img: darkGreenCloth,
-        shortD: "Beachy polka dots on sea-green flora",
-        price: '5$',
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
+        color: "green",
+        shortD: "Floral Painted Cloth",
+        price: '800',
+        description: "Beachy polka dots on sea-green flora"
     },
     {
         key: 5,
         name: "CLASSY",
         img: grayCloth,
-        shortD: "Rows of square flowers adorn brown",
-        price: '5$',
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
+        color: "brown",
+        shortD: "Brown | Floral Painted Cloth",
+        price: '800',
+        description: "Rows of square flowers adorn brown"
     },
     {
         key: 6,
         name: "LEAFY",
         img: greenSuit,
+        color: "green",
         shortD: "Leafy suit with Fulkari garden",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 7,
         name: "WILLOW",
         img: greenSuitModel,
-        shortD: "Handpainted flower suit on girl",
-        price: '5$',
+        color: "green",
+        shortD: "Hand Painted flower suit on girl",
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 8,
         name: "PLUM",
         img: lightPurple,
+        color: "purple",
         shortD: "Purple suit, Fulkari, pink-yellow florals",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 9,
         name: "ROBIN",
         img: lightBlue,
+        color: "blue",
         shortD: "Sky-blue casual suit with pink flora",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
-        key: 10,
+        key: 800,
         name: "TANGERINE",
         img: orange,
+        color: "orange",
         shortD: "Graceful orange cloth with light blue flowers",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 11,
         name: "ROSIE",
         img: pinkCloth,
+        color: "pink",
         shortD: "Light pink suit with red flowers",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 12,
         name: "RAVEN",
         img: purpleSuit,
+        color: "purple",
         shortD: "Purple party wear suit for next-level beauty",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 13,
         name: "BERRY",
         img: red,
+        color: "red",
         shortD: "Stylish red cloth with colorful flowers",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 14,
         name: "MARIGOLD",
         img: redJutti,
-        shortD: "Hand-painted red jutti suit set",
-        price: '5$',
+        color: "red",
+        shortD: "Hand Painted red jutti suit set",
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 15,
         name: "lorem ipsum",
         img: redSuit,
-        shortD: "Red colored Suit set with Phulkari",
-        price: '5$',
+        color: "red",
+        shortD: "Suit Set With Phulkari",
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 16,
         name: "LUNA",
         img: whiteCloth,
-        shortD: "Moon like cloth for a moon",
-        price: '5$',
+        color: "white",
+        shortD: "White Floral Cloth",
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 17,
         name: "MEADOW",
         img: yellow,
+        color: "yellow",
         shortD: "Party wear yellow suit",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
     {
         key: 18,
         name: "DAFFODIL",
         img: yellowSuit,
+        color: "yellow",
         shortD: "Party wear yellow suit",
-        price: '5$',
+        price: '800',
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
     },
-    // {
-    //     key: 19,
-    //     name: "lorem ipsum",
-    //     img: yellowSuitM,
-    //     price: '5$',
-    //     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam. Laborum consequuntur est voluptate explicabo at commodi facilis. Unde ipsam consequatur odio culpa similique in quos esse aspernatur eaque facere"
-    // },
 ]
