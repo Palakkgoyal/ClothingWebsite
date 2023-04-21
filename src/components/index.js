@@ -7,6 +7,7 @@ import Facilities from "./Facilities";
 import Videos from './Videos'
 import Follow from "./Follow";
 import Sidebar from "./Sidebar";
+import SuitDetailCom from "./SuitDetailCom";
 
 export {
     AllSuitCom,
@@ -18,4 +19,5 @@ export {
     Videos,
     Follow,
     Sidebar,
+    SuitDetailCom,
 }
