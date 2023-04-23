@@ -3,7 +3,7 @@ import { AllSuitCom, Sidebar, HomeBanner } from '../components'
 
 const Home = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <HomeBanner />
       <div className='flex'>
         {/* <Sidebar /> */}
