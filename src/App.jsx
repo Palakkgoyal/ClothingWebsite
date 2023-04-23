@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Navbar } from './components'
-import { Home, AllSuits, SuitDetail, CommonNav } from './pages'
+import { AboutUs, Home, SuitDetail, CommonNav, ContactPage } from './pages'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 
@@ -10,7 +10,8 @@ const App = () => {
        <CommonNav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/all-suits' element={<AllSuits />} />
+        <Route path='/about' element={<AboutUs />} />
+        <Route path="/suit-customization" element={<ContactPage />} />
         <Route path='/all-suits/:id'element={<SuitDetail />} />
       </Routes>
     </BrowserRouter>

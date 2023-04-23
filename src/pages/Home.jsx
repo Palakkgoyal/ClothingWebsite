@@ -1,20 +1,12 @@
 import React from 'react'
-import { Hero, Navbar, Suits, Facilities, Videos, Follow } from '../components'
-import styles from '../style'
+import { AllSuitCom, Sidebar, HomeBanner } from '../components'
 
 const Home = () => {
   return (
-    <div className="w-full overflow-hidden">
-      <div className={`${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-      <Suits />
-      <Facilities />
-      <Videos />
-      <Follow />
-    </div>
+   <div className='flex'>
+    <Sidebar />
+    <AllSuitCom />
+   </div>
   )
 }
 

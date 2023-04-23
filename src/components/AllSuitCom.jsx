@@ -2,10 +2,12 @@ import React from 'react'
 import { allSuits } from '../Constants'
 import { BiStar } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import HomeBanner from './HomeBanner';
 
 const AllSuits = () => {
   return (
     <div className='mx-2 lg:mx-4'>
+      <HomeBanner />
       <div className='my-2'>
         <h1 className='font-sans font-bold text-xl'>
           Suits

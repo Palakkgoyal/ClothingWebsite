@@ -19,11 +19,20 @@ import whiteCloth from './SuitImages/whiteCloth.jpg'
 import yellow from './SuitImages/yellow.jpg'
 import yellowSuit from './SuitImages/yellowSuit.jpg'
 import yellowSuitM from './SuitImages/yellowSuitM.jpg'
+
 import V1 from './Videos/V1.mp4'
 import V2 from './Videos/V2.mp4'
 import V3 from './Videos/V3.mp4'
 import V4 from './Videos/V4.mp4'
 import V5 from './Videos/V5.mp4'
+import GreenSuitV from './Videos/GreenSuitV.mp4'
+import WhiteSuitV from './Videos/WhiteSuitV.mp4'
+
+import slider1 from "./SliderImages/slider1.png"
+import slider2 from "./SliderImages/slider2.png"
+import slider3 from "./SliderImages/slider3.png"
+import slider4 from "./SliderImages/slider4.png"
+
 import qrInsta from './qrInsta.jpg'
 
 export{
@@ -48,10 +57,19 @@ export{
     yellow,
     yellowSuit,
     yellowSuitM,
+    
     V1,
     V2,
     V3,
     V4,
     V5,
+    GreenSuitV,
+    WhiteSuitV,
+
+    slider1,
+    slider2,
+    slider3,
+    slider4,
+
     qrInsta,
 }

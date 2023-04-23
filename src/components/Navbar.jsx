@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center border-b-[2px] shadow-gray-400 pb-2 w-full'>
       <div className={`${styles.flexCenter} pt-3`}>
-        <img src={logo}
+        <img src={ logo }
           alt="kiratFloral"
           className='w-16'
         />

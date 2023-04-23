@@ -8,6 +8,8 @@ import Videos from './Videos'
 import Follow from "./Follow";
 import Sidebar from "./Sidebar";
 import SuitDetailCom from "./SuitDetailCom";
+import Contact from "./Contact"
+import HomeBanner from "./HomeBanner";
 
 export {
     AllSuitCom,
@@ -20,4 +22,6 @@ export {
     Follow,
     Sidebar,
     SuitDetailCom,
+    Contact,
+    HomeBanner,
 }
