@@ -3,13 +3,13 @@ import { slider1, slider2, slider3, slider4 } from '../assets'
 
 const HomeBanner = () => {
   var counter = 1;
-  setInterval(() => {
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-    if (counter > 4) {
-      counter = 1;
-    }
-  }, 4000)
+  // setInterval(() => {
+  //   document.getElementById('radio' + counter).checked = true;
+  //   counter++;
+  //   if (counter > 4) {
+  //     counter = 1;
+  //   }
+  // }, 4000)
 
   return (
     <div className='slider w-[100vw] overflow-hidden rounded-lg relative'>
