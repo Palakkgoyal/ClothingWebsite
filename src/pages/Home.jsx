@@ -3,10 +3,13 @@ import { AllSuitCom, Sidebar, HomeBanner } from '../components'
 
 const Home = () => {
   return (
-   <div className='flex'>
-    {/* <Sidebar /> */}
-    <AllSuitCom />
-   </div>
+    <div>
+      <HomeBanner />
+      <div className='flex'>
+        {/* <Sidebar /> */}
+        <AllSuitCom />
+      </div>
+    </div>
   )
 }
 

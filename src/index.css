@@ -129,6 +129,7 @@ body {
     background-color: #DF74CF;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
+    /* background-color: #DF74CF; */
     background-color: #DF74CF;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{

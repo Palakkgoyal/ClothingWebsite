@@ -6,9 +6,9 @@ import HomeBanner from './HomeBanner';
 
 const AllSuits = () => {
   return (
-    <div className=' lg:mx-4'>
-      <HomeBanner />
-      <div className='my-2 mx-2'>
+    <div className=' lg:mx-4 mx-2'>
+      {/* <HomeBanner /> */}
+      <div className='my-2'>
         <h1 className='font-sans font-bold text-xl'>
           Suits
         </h1>
