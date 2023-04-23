@@ -111,3 +111,29 @@ body {
     -webkit-line-clamp: 2; 
     white-space: pre-wrap;
 }
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #DF74CF;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #DF74CF;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #DF74CF;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #DF74CF;
+}

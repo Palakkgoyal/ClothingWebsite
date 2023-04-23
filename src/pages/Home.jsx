@@ -4,7 +4,7 @@ import { AllSuitCom, Sidebar, HomeBanner } from '../components'
 const Home = () => {
   return (
    <div className='flex'>
-    <Sidebar />
+    {/* <Sidebar /> */}
     <AllSuitCom />
    </div>
   )
