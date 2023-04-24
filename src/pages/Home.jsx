@@ -6,7 +6,7 @@ const Home = () => {
     <div className='flex flex-col justify-center items-center'>
       <HomeBanner />
       <div className='flex'>
-        {/* <Sidebar /> */}
+        <Sidebar />
         <AllSuitCom />
       </div>
     </div>

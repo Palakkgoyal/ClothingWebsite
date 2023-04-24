@@ -7,12 +7,13 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 const App = () => {
   return (
     <BrowserRouter>
-       <CommonNav />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path="/suit-customization" element={<ContactPage />} />
-        <Route path='/all-suits/:id'element={<SuitDetail />} />
+        <Route element={<CommonNav />}>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path="/suit-customization" element={<ContactPage />} />
+          <Route path='/all-suits/:id'element={<SuitDetail />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   )

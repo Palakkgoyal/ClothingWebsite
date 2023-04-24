@@ -3,8 +3,15 @@ import { allSuits } from '../Constants'
 import { BiStar } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 import HomeBanner from './HomeBanner';
+import { useSearchParams } from 'react-router-dom';
 
 const AllSuits = () => {
+  const [searchParam, setSearchParam] = useSearchParams();
+  const colorFilter = searchParam.get("color")
+
+  const filteredSuits = colorFilter 
+    ? allSuits.filter(suit => suit.color === colorFilter) : allSuits
+
   return (
     <div className=' lg:mx-4 mx-2'>
       {/* <HomeBanner /> */}
@@ -17,7 +24,7 @@ const AllSuits = () => {
         </p>
       </div>
       <div className='grid grid-cols-2 gap-2 justify-evenly items-center lg:gap-4'>
-        {allSuits.map((suit) => {
+        {filteredSuits.map((suit) => {
           return (
             <Link to={`/all-suits/${suit.key}`} key={suit.key}>
               <div className='cursor-pointer rounded-t-md'>

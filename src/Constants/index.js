@@ -64,7 +64,7 @@ export const allSuits = [
         key: 2,
         name: "GREENY",
         img: brownJutti,
-        color: "green and brown",
+        color: "green",
         shortD: "Suit and Jutti Set",
         price: 800,
         discount: 50,
