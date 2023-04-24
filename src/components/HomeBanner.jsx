@@ -2,7 +2,7 @@ import React from 'react'
 import { slider1, slider2, slider3, slider4 } from '../assets'
 
 const HomeBanner = () => {
-  var counter = 1;
+  var counter = 2;
   // setInterval(() => {
   //   document.getElementById('radio' + counter).checked = true;
   //   counter++;
@@ -12,7 +12,7 @@ const HomeBanner = () => {
   // }, 4000)
 
   return (
-    <div className='slider w-[100vw] overflow-hidden rounded-lg relative'>
+    <div className='slider w-[100vw] lg:w-[100%] overflow-hidden rounded-lg relative'>
       <div className='slides w-[500%] flex overflow-hidden relative'>
         <input type="radio" name="radio-btn" id="radio1" className='hidden' />
         <input type="radio" name="radio-btn" id="radio2" className='hidden' />

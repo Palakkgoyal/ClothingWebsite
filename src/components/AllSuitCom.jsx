@@ -2,7 +2,6 @@ import React from 'react'
 import { allSuits } from '../Constants'
 import { BiStar } from "react-icons/bi";
 import { Link } from 'react-router-dom';
-import HomeBanner from './HomeBanner';
 import { useSearchParams } from 'react-router-dom';
 
 const AllSuits = () => {
@@ -14,7 +13,6 @@ const AllSuits = () => {
 
   return (
     <div className=' lg:mx-4 mx-2'>
-      {/* <HomeBanner /> */}
       <div className='my-2'>
         <h1 className='font-sans font-bold text-xl'>
           Suits
@@ -23,7 +21,8 @@ const AllSuits = () => {
           Prices and other details may vary according to your customization
         </p>
       </div>
-      <div className='grid grid-cols-2 gap-2 justify-evenly items-center lg:gap-4'>
+      {/* <div className='grid grid-cols-2 gap-2 justify-evenly items-center lg:gap-4'> */}
+      <div className='grid grid-cols-2 em:grid-cols-3 gap-2 justify-evenly items-center lg:gap-4'>
         {filteredSuits.map((suit) => {
           return (
             <Link to={`/all-suits/${suit.key}`} key={suit.key}>

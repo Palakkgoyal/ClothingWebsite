@@ -10,6 +10,7 @@ import Sidebar from "./Sidebar";
 import SuitDetailCom from "./SuitDetailCom";
 import Contact from "./Contact"
 import HomeBanner from "./HomeBanner";
+import SmallScreenFilterPage from "./smallScreenFilterPage";
 
 export {
     AllSuitCom,
@@ -24,4 +25,5 @@ export {
     SuitDetailCom,
     Contact,
     HomeBanner,
+    SmallScreenFilterPage,
 }
