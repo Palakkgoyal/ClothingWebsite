@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../components'
+import { Navbar, FilterCom } from '../components'
 import styles from '../style'
 import { Outlet } from 'react-router-dom'
 

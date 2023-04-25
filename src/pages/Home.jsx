@@ -1,5 +1,5 @@
 import React from 'react'
-import { AllSuitCom, Sidebar, HomeBanner, SmallScreenFilterPage } from '../components'
+import { AllSuitCom, Sidebar, HomeBanner, FilterBar } from '../components'
 import styles from '../style'
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
       <div className={`flex flex-col justify-center items-center ${ styles.boxWidth }`}>
         <HomeBanner />
         <div className='flex flex-col lg:flex-row'>
-          <SmallScreenFilterPage />
+          <FilterBar />
           <Sidebar />
           <AllSuitCom />
         </div>

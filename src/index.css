@@ -138,3 +138,7 @@ body {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #DF74CF;
 }
+
+.filterShadow{
+    text-shadow: -1px 2px 4px rgba(65, 119, 255, 0.83);
+}
