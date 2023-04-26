@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom'
 const CommonNav = () => {
   return (
     <>
+    <FilterCom />
        <div className={`${styles.paddingX}`} >
         <div className={`${styles.boxWidth} mx-auto`}>
           <Navbar />
